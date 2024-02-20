@@ -54,7 +54,6 @@ export class UsersFormComponent {
       this.userCreate.emit(this.userForm.value);
       this.userForm.reset();
       alert("datos cargados corectamente");
-
     }
   }
 
